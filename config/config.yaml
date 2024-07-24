@@ -1,0 +1,13 @@
+artifacts_root: artifacts
+
+data_ingestion:
+    root_dir: artifacts/data_ingestion
+    service: s3
+    region: us-east-1
+    bucket_name: reynaml
+    aws_file: LI-Small_Trans.csv
+    download_path: artifacts/data_ingestion/data.csv
+    aws_access_key_id: os.getenv("AWS_ACCESS_KEY_ID")
+    aws_secret_access_key: os.getenv("AWS_SECRET_ACCESS_KEY")
+
+    
