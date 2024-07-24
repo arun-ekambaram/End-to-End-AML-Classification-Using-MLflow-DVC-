@@ -154,7 +154,7 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
-/Users/arunekambaram/Desktop/End-to-End-AML-Classification-Using-MLflow-DVC-/secrets/secrets.yaml
+End-to-End-AML-Classification-Using-MLflow-DVC-/secrets/secrets.yaml
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
