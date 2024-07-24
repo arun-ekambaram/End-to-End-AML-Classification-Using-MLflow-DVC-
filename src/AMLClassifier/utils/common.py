@@ -4,7 +4,7 @@ import yaml
 from AMLClassifier import logger
 import json
 import joblib
-from ensure import ensure_annotations
+from ensure import ensure_annotations # whenever user passes invalid datatype in the input arguments it will throw an error
 from box import ConfigBox
 from pathlib import Path
 from typing import Any
