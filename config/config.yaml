@@ -7,7 +7,7 @@ data_ingestion:
     bucket_name: reynaml
     aws_file: LI-Small_Trans.csv
     download_path: artifacts/data_ingestion/data.csv
-    aws_access_key_id: os.getenv("AWS_ACCESS_KEY_ID")
-    aws_secret_access_key: os.getenv("AWS_SECRET_ACCESS_KEY")
+    aws_access_key_id: AKIA3FLD6AHRLWGNRLTF
+    aws_secret_access_key: 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
 
-    
+
